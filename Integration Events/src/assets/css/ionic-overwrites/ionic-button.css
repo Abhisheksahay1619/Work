@@ -1,0 +1,32 @@
+html.ios ion-button.custom-button{
+  height: 32px;
+  --border-radius: 4px;
+}
+html.ios ion-button{
+  --opacity: 1;
+}
+.sc-ion-buttons-ios-s .button-solid-ios:hover{
+  opacity: 1;
+}
+ion-button{
+    text-transform: capitalize;
+    font-weight: normal;
+    --border-radius: 4px;
+}
+ion-title ion-button{
+  font-size: 17px;
+  font-weight: 500;
+}
+ion-button#btn-imagery-grid{
+    --padding-start: 0.5em;
+    --padding-end: 0.5em;
+}
+ion-segment.segments-developer ion-segment-button ion-label{
+  margin: 0
+}
+ion-button.back-button{
+  --padding-end: 11px;
+}
+ion-button.back-button ion-icon{
+  margin: 0;
+}

@@ -1,0 +1,5 @@
+ion-loading.loading-ios .loading-wrapper,
+ion-loading.loading-md .loading-wrapper{
+  max-width: 308px;
+  text-align: center;
+}

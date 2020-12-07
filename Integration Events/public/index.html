@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Material+Icons' rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <title>Integration Events</title>
+  </head>
+  <body>
+    <ion-app id="app"></ion-app>
+    <ion-modal-controller></ion-modal-controller>
+    <ion-toast-controller></ion-toast-controller>
+    <div id="serviceAPIMissing" style="display: none;">
+      <ion-card>
+        <ion-card-content>
+          <ion-card-header>
+            <ion-card-title>
+              Please ask site administrator to set Integration Events module service configuration
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <noscript>
+      <strong>We're sorry but lead-cloud doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <!-- built files will be auto injected -->
+  <div style="display:none" class="uiBoxRedNoScript" id="ieWarning">
+    <div class="title">Browser not supported</div>
+    <div>
+      This site requires Chrome, Firefox, or the latest version of <a
+        href="https://support.microsoft.com/en-us/help/4501095/download-the-new-microsoft-edge-based-on-chromium"
+        target="_blank">Microsoft
+        Edge</a>.
+    </div>
+  </div>
+  </body>
+  </html>

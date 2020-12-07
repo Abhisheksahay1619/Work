@@ -1,0 +1,349 @@
+{
+    "StepType": [
+        {
+            "StepType": 65,
+            "StepTypeName": "Authorize"
+        },
+        {
+            "StepType": 59,
+            "StepTypeName": "BigListCompare"
+        },
+        {
+            "StepType": 56,
+            "StepTypeName": "CacheData"
+        },
+        {
+            "StepType": 39,
+            "StepTypeName": "CapCheck"
+        },
+        {
+            "StepType": 44,
+            "StepTypeName": "CheckConfig"
+        },
+        {
+            "StepType": 32,
+            "StepTypeName": "DatePart"
+        },
+        {
+            "StepType": 51,
+            "StepTypeName": "DebugLead"
+        },
+        {
+            "StepType": 66,
+            "StepTypeName": "DelayLogging"
+        },
+        {
+            "StepType": 31,
+            "StepTypeName": "DupeCheck"
+        },
+        {
+            "StepType": 67,
+            "StepTypeName": "ElephantVinClean"
+        },
+        {
+            "StepType": 62,
+            "StepTypeName": "EncodeDecodeLeadXml"
+        },
+        {
+            "StepType": 30,
+            "StepTypeName": "EncryptFields"
+        },
+        {
+            "StepType": 64,
+            "StepTypeName": "EsuranceVinLookup"
+        },
+        {
+            "StepType": 11,
+            "StepTypeName": "FieldMappingInbound"
+        },
+        {
+            "StepType": 12,
+            "StepTypeName": "FieldMappingOutbound"
+        },
+        {
+            "StepType": 52,
+            "StepTypeName": "FTP"
+        },
+        {
+            "StepType": 69,
+            "StepTypeName": "GetOAuthToken"
+        },
+        {
+            "StepType": 6,
+            "StepTypeName": "GetRequest"
+        },
+        {
+            "StepType": 20,
+            "StepTypeName": "GoTo"
+        },
+        {
+            "StepType": 16,
+            "StepTypeName": "InsertMetadata"
+        },
+        {
+            "StepType": 49,
+            "StepTypeName": "InsertWorkflowData"
+        },
+        {
+            "StepType": 29,
+            "StepTypeName": "LeadXmlSwap"
+        },
+        {
+            "StepType": 60,
+            "StepTypeName": "LibertyMutualVinClean"
+        },
+        {
+            "StepType": 1,
+            "StepTypeName": "LogLead"
+        },
+        {
+            "StepType": 2,
+            "StepTypeName": "LogLeadHistory"
+        },
+        {
+            "StepType": 37,
+            "StepTypeName": "LogLeadHistoryS3"
+        },
+        {
+            "StepType": 36,
+            "StepTypeName": "LogLeadS3"
+        },
+        {
+            "StepType": 47,
+            "StepTypeName": "LogLeadState"
+        },
+        {
+            "StepType": 43,
+            "StepTypeName": "MergeXml"
+        },
+        {
+            "StepType": 63,
+            "StepTypeName": "ParallelCallMerge"
+        },
+        {
+            "StepType": 13,
+            "StepTypeName": "PingTree"
+        },
+        {
+            "StepType": 7,
+            "StepTypeName": "PostLead"
+        },
+        {
+            "StepType": 19,
+            "StepTypeName": "PullMetadata"
+        },
+        {
+            "StepType": 70,
+            "StepTypeName": "PullWarehouseData"
+        },
+        {
+            "StepType": 68,
+            "StepTypeName": "PushToPusher"
+        },
+        {
+            "StepType": 48,
+            "StepTypeName": "RejectLead"
+        },
+        {
+            "StepType": 45,
+            "StepTypeName": "SellLead"
+        },
+        {
+            "StepType": 17,
+            "StepTypeName": "SendEmailNotification"
+        },
+        {
+            "StepType": 18,
+            "StepTypeName": "SendSnsNotification"
+        },
+        {
+            "StepType": 41,
+            "StepTypeName": "SetContentType"
+        },
+        {
+            "StepType": 24,
+            "StepTypeName": "SetLeadUrl"
+        },
+        {
+            "StepType": 40,
+            "StepTypeName": "SetStatusCode"
+        },
+        {
+            "StepType": 54,
+            "StepTypeName": "SetXmlNode"
+        },
+        {
+            "StepType": 28,
+            "StepTypeName": "SpawnSubIntegration"
+        },
+        {
+            "StepType": 25,
+            "StepTypeName": "StringReplace"
+        },
+        {
+            "StepType": 50,
+            "StepTypeName": "StringReplaceRegex"
+        },
+        {
+            "StepType": 22,
+            "StepTypeName": "StripXmlNamespaces"
+        },
+        {
+            "StepType": 61,
+            "StepTypeName": "SubStringOfLeadXml"
+        },
+        {
+            "StepType": 5,
+            "StepTypeName": "TransformFormToXml"
+        },
+        {
+            "StepType": 33,
+            "StepTypeName": "TransformJsonToXml"
+        },
+        {
+            "StepType": 14,
+            "StepTypeName": "TransformParametersToForm"
+        },
+        {
+            "StepType": 15,
+            "StepTypeName": "TransformPostBodyToForm"
+        },
+        {
+            "StepType": 46,
+            "StepTypeName": "TransformQueryStringToXml"
+        },
+        {
+            "StepType": 23,
+            "StepTypeName": "TransformXmlElementValueToXml"
+        },
+        {
+            "StepType": 55,
+            "StepTypeName": "TransformXmlToJSON"
+        },
+        {
+            "StepType": 4,
+            "StepTypeName": "TransformXmlToString"
+        },
+        {
+            "StepType": 3,
+            "StepTypeName": "TransformXmlToXml"
+        },
+        {
+            "StepType": 42,
+            "StepTypeName": "VinMatch"
+        },
+        {
+            "StepType": 53,
+            "StepTypeName": "VolumeCap"
+        },
+        {
+            "StepType": 57,
+            "StepTypeName": "Wait"
+        },
+        {
+            "StepType": 58,
+            "StepTypeName": "WinRater"
+        },
+        {
+            "StepType": 21,
+            "StepTypeName": "WrapLeadInXml"
+        },
+        {
+            "StepType": 38,
+            "StepTypeName": "ZipLookup"
+        }
+    ],
+    "Users": [
+        {
+            "UserId": 3,
+            "DisplayName": "Farmer Return",
+            "IsSuperUser": true
+        },
+        {
+            "UserId": 4,
+            "DisplayName": "Farmer Return 1",
+            "IsSuperUser": false
+        }
+    ],
+    "Workflows": [
+        {
+            "WorkflowId": "05ad6ee8-1a75-4c43-abce-0e73a751490e",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "11 May",
+            "OwnerId": 3,
+            "WorkflowDescription": "desc"
+        },
+        {
+            "WorkflowId": "46901152-8715-4e67-bce7-9bf0c5d78761",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "22 may",
+            "OwnerId": 3,
+            "WorkflowDescription": "test"
+        },
+        {
+            "WorkflowId": "5fb06f2f-09d3-4c3a-9b7a-0ced23ab9f42",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "7 may",
+            "OwnerId": 3,
+            "WorkflowDescription": "desc"
+        },
+        {
+            "WorkflowId": "5fb06f2f-09d3-4c3a-9b7a-0ced23ab9f41",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "aaaa",
+            "OwnerId": 3,
+            "WorkflowDescription": ""
+        },
+        {
+            "WorkflowId": "e34e2483-13a3-468b-b1aa-64fc8e19a3bf",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "aaaa Copy",
+            "OwnerId": 3,
+            "WorkflowDescription": ""
+        },
+        {
+            "WorkflowId": "7fc1c270-7527-4695-91d6-b91cd071948c",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "Abj test",
+            "OwnerId": 4,
+            "WorkflowDescription": "Desc"
+        },
+        {
+            "WorkflowId": "99250ca1-0cc3-47a8-b12e-0f0bf8565fb7",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "Abj test 22 may",
+            "OwnerId": 3,
+            "WorkflowDescription": "desc"
+        },
+        {
+            "WorkflowId": "d0cf2845-6167-4cbd-ba3a-f710392d3314",
+            "WorkflowTypeId": 1,
+            "WorkflowName": "Abj test Copy",
+            "OwnerId": 4,
+            "WorkflowDescription": "Desc"
+        },
+        {
+            "WorkflowId": "dbff88bc-44c7-4015-a189-30b5834c4d11",
+            "WorkflowTypeId": 6,
+            "WorkflowName": "ABj test post filter",
+            "OwnerId": 3,
+            "WorkflowDescription": "descs"
+        }
+    ],
+    "Workflow": {
+        "WorkflowId": "05ad6ee8-1a75-4c43-abce-0e73a751490e",
+        "WorkflowTypeId": 1,
+        "WorkflowName": "11 May",
+        "OwnerId": 3,
+        "WorkflowDescription": "desc"
+    },
+    "WorkflowSteps": [
+        {
+            "WorkflowId": "05ad6ee8-1a75-4c43-abce-0e73a751490e",
+            "StepNumber": 1,
+            "StepType": 19,
+            "NextStep": null,
+            "StepData": {"SellerLeadIdPath":"","BuyerLeadIdPath":"","BuyerIdPath":"","BuyerIdAttribute":"","SellerIdPath":"","SellerIdAttribute":"","LeadRefIdPath":"","AccessControlAllowOriginPath":"","AuxSets":[{"Key" : "lrid", "Value" : "//BuyerLeadId"},{"Key" : "lrids", "Value" : "//BuyerLeadIds"}],"LeadUrlPath":""}
+        }
+    ]
+}
