@@ -1,0 +1,21 @@
+ion-menu{
+  --ion-item-border-color-rgb: transparent;
+  --border: none;
+  --width: 200px;
+  /* max-width: 225px !important; */
+  /* min-width: 225px !important; */
+}
+.split-pane-ios.split-pane-visible>.split-pane-side,
+.split-pane-md.split-pane-visible>.split-pane-side{
+  max-width: 200px;
+  min-width: 200px;
+}
+.bn-menu{
+  --background: #3d3d3d !important;
+}
+.bn-menu ion-item{
+  border: none;
+  --background: #3d3d3d;
+  --inner-border-width: 0;
+  --min-height: 52px;
+}

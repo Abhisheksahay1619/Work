@@ -1,0 +1,3 @@
+.footer-ios ion-toolbar:first-child{
+  --border-width: 0;
+}

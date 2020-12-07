@@ -1,0 +1,18 @@
+ion-modal.fullscreen>div{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media only screen and (min-height: 600px) and (min-width: 768px){
+  .modal-wrapper{
+    width: 60%!important;
+    height: 94%!important;
+    top: 3%!important;
+    left: 20%!important;
+    right: 20%!important;
+    bottom: 3%!important;
+  }
+}
+ion-modal.fullscreen ion-header ion-toolbar:first-child{
+  padding-top: var(--ion-safe-area-top, 0px) !important;
+}
