@@ -1,0 +1,8 @@
+ion-popover .popover-content{
+  max-height: calc(100vh - var(--ion-safe-area-bottom, 0px) - var(--ion-safe-area-top, 0px) - var(--header-height) - 4px) !important;
+}
+@media (min-width: 680px){
+  ion-popover .popover-content {
+      width: 360px !important;
+  }
+}

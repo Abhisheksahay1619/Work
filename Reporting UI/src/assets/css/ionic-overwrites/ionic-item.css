@@ -1,0 +1,31 @@
+ion-item{
+  --border-style: none;
+}
+ion-item,
+ion-item .item-inner{
+  border: none;
+  --inner-border-width: 0;
+}
+ion-item{
+  border-bottom: 1px solid #ddd;
+}
+.cloned-input input {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      font-size: inherit;
+      color: inherit;
+}
+.airport-selector-input .cloned-input input {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 17px;
+}
